@@ -1,0 +1,98 @@
+.profile-page {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.profile-box {
+  background-color: #101414;
+  color: var(--text);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.6),
+    0 6px 6px rgba(0, 0, 0, 0.4);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-box:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.7),
+    0 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.profile-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+.profile-info-group {
+  margin-bottom: 1.5rem;
+}
+
+.profile-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+
+.profile-value {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.logout-btn, .profile-button {
+  padding: 0.85rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.profile-button {
+    padding: 0.6em;
+}
+
+.logout-btn:hover, .profile-button:hover {
+  background-color: var(--accent);
+  color: var(--background);
+}
+
+.nav-link {
+    color: var(--text);
+    font-size: 35px
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 0.3rem;
+}
+
+.input-field {
+  padding: 0.9rem 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #1c2222;
+  color: var(--text);
+}
+
+.input-field::placeholder {
+  color: #9ea9a9;
+}

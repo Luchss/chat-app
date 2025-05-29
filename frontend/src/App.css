@@ -1,0 +1,47 @@
+/* CSS DEFAULT */ 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #e2eeed;
+  --background: #070c0c;
+  --primary: #a7d3d0;
+  --secondary: #316a67;
+  --accent: #58b8b2;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  line-height: 1.5;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* CSS DEFAULT */ 
